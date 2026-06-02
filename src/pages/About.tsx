@@ -52,7 +52,7 @@ export default function About() {
                {/* 1.5px gold pinstripe border */}
                <div className="absolute inset-2 border-[1.5px] border-[#D4AF37]/60 rounded-t-[200px] z-10 pointer-events-none"></div>
                <img 
-                 src="https://image.pollinations.ai/prompt/heritage%20indian%20palace%20architecture%20arches%20with%20royal%20textiles?width=800&height=1200&nologo=true&seed=22"
+                 src="/assets/830cc782-db63-4ddd-a81b-986fdc222f89.JPG"
                  alt="Imperial Odyssey"
                  className="w-full h-full object-cover rounded-t-[200px] shadow-2xl"
                  referrerPolicy="no-referrer"
@@ -99,7 +99,7 @@ export default function About() {
                  className="lg:w-1/2 w-full lg:pl-16"
                >
                   <img 
-                    src="https://image.pollinations.ai/prompt/soft%20focus%20indian%20weavers%20handloom%20silk%20threads%20golden%20light?width=800&height=600&nologo=true&seed=44" 
+                    src="/assets/IMG_2079.PNG" 
                     alt="The Ancestral Loom" 
                     className="w-full aspect-[4/3] object-cover shadow-xl border border-[#D4AF37]/20 relative z-10"
                    loading="lazy" />
@@ -127,7 +127,7 @@ export default function About() {
                  className="lg:w-1/2 w-full lg:pr-16"
                >
                   <img 
-                    src="https://image.pollinations.ai/prompt/close%20up%20zardozi%20embroidery%20needlework%20gold%20threads%20burgundy%20fabric?width=800&height=600&nologo=true&seed=55" 
+                    src="/assets/IMG_2081.PNG" 
                     alt="The Sacred Needle" 
                     className="w-full aspect-[4/3] object-cover shadow-xl border border-[#D4AF37]/20 relative z-10"
                    loading="lazy" />
@@ -181,7 +181,7 @@ export default function About() {
                   <div className="w-[300px] md:w-[400px] aspect-[3/4] rounded-t-[200px] border-[2px] border-[#D4AF37]/60 p-2 relative shadow-2xl mx-auto bg-[#F7F4EB]">
                      <div className="w-full h-full rounded-t-[190px] overflow-hidden">
                        <img 
-                         src="https://image.pollinations.ai/prompt/elegant%20indian%20woman%20founder%20designer%20studio%20portrait%20luxury%20fashion?width=800&height=1000&nologo=true&seed=88" 
+                         src="/assets/IMG_2082.PNG" 
                          alt="Founder Aisha Sharma" 
                          className="w-full h-full object-cover grayscale-[20%]"
                          referrerPolicy="no-referrer"
