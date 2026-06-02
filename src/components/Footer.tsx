@@ -105,9 +105,9 @@ export const Footer = () => {
           {/* COLUMN 3: ASSISTANCE */}
           <div className="flex flex-col gap-4 md:gap-6 items-center md:items-start md:col-span-1">
             <h4 className="text-ivory/50 mb-1 md:mb-4 font-subheading tracking-[0.2em] text-[10px] md:text-xs">Assistance</h4>
-            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-ivory hover:text-gold transition-colors duration-300 flex items-center gap-3">
-              <MessageCircle className="w-4 h-4 stroke-[1.5]" />
-              Chat on WhatsApp
+            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 text-ivory hover:text-gold transition-colors duration-300">
+              <MessageCircle className="w-4 h-4" />
+              <span className="text-xs">Chat on WhatsApp</span>
             </a>
           </div>
 
