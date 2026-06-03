@@ -159,21 +159,21 @@ export default function Layout() {
         </div>
       </div>
 
-      {/* Floating Design Showcase Button */}
-      <Link to="/design-showcase">
+      {/* Floating Contact Us Button */}
+      <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
         <motion.div 
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           whileHover={{ scale: 1.1 }}
           className="fixed bottom-8 right-8 bg-gold text-emerald p-5 rounded-full z-50 border-4 border-double border-emerald flex items-center justify-center group glow-gold cursor-pointer"
-          aria-label="View Karigari Library"
+          aria-label="Contact Us on WhatsApp"
         >
           <MessageCircle size={32} />
           <span className="absolute right-full mr-4 bg-parchment bg-raw-silk text-emerald font-subheading tracking-widest text-xs px-4 py-2 border border-gold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 shadow-xl">
-            View Karigari Library
+            Contact Us
           </span>
         </motion.div>
-      </Link>
+      </a>
     </div>
   );
 }
